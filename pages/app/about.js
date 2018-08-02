@@ -2,6 +2,6 @@ import Layout from '../../components/MyLayout.js'
 
 export default () => (
     <Layout>
-       <p>Hello About Page</p>
+       <p>HERO HELLO</p>
     </Layout>
 )
