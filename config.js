@@ -1,3 +1,5 @@
-export const config = {
+const config = {
     router: "/app"
 }
+
+export default config

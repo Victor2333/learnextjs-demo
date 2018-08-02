@@ -16,6 +16,7 @@ RUN npm install
 
 # Copy our source into container
 COPY . /usr/src/demo-server
+RUN npm run build
 
 # If our server uses 1337 by default
 # expose it from Docker container
@@ -24,4 +25,4 @@ COPY . /usr/src/demo-server
 EXPOSE 3000
 
 # Run app.py when the container launches
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]

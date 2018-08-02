@@ -3,7 +3,7 @@ import config from '../config'
 const linkStyle = {
   marginRight: 15
 }
-
+console.log(config)
 const Header = () => (
 	<div>
 		<Link href={`${config.router}/`}>
